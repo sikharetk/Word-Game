@@ -1,0 +1,720 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1CF08EEA-091A-415B-B074-A2739A3F9560}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp10</RootNamespace>
+    <AssemblyName>WindowsFormsApp10</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10.Designer.cs">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11.Designer.cs">
+      <DependentUpon>Form11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12.Designer.cs">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form13.Designer.cs">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form14.Designer.cs">
+      <DependentUpon>Form14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form15.Designer.cs">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form16.Designer.cs">
+      <DependentUpon>Form16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form17.Designer.cs">
+      <DependentUpon>Form17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form18.Designer.cs">
+      <DependentUpon>Form18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form19.Designer.cs">
+      <DependentUpon>Form19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form20.Designer.cs">
+      <DependentUpon>Form20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form21.Designer.cs">
+      <DependentUpon>Form21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form22.Designer.cs">
+      <DependentUpon>Form22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form24.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form24.Designer.cs">
+      <DependentUpon>Form24.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form25.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form25.Designer.cs">
+      <DependentUpon>Form25.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form26.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form26.Designer.cs">
+      <DependentUpon>Form26.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form27.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form27.Designer.cs">
+      <DependentUpon>Form27.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.cs">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="setting.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10.resx">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form11.resx">
+      <DependentUpon>Form11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form12.resx">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form13.resx">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form14.resx">
+      <DependentUpon>Form14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form15.resx">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form16.resx">
+      <DependentUpon>Form16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form17.resx">
+      <DependentUpon>Form17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form18.resx">
+      <DependentUpon>Form18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form19.resx">
+      <DependentUpon>Form19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form20.resx">
+      <DependentUpon>Form20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form21.resx">
+      <DependentUpon>Form21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form22.resx">
+      <DependentUpon>Form22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form24.resx">
+      <DependentUpon>Form24.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form25.resx">
+      <DependentUpon>Form25.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form26.resx">
+      <DependentUpon>Form26.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form27.resx">
+      <DependentUpon>Form27.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abstract-1853417_960_720.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\959825.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\108369977.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aHR0cHM6Ly9zLmlzYW5vb2suY29tL2F1LzAvdWQvNC8yMzY1NS8xMDAuanBn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallpaper-set08.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\101526209.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-2402709_960_720.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxresdefault.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iStock_000005631178Medium.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimal01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iStock_000005631178Medium1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\horse-807438_960_720.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\116215972.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\original.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ant_individual__2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ant_individual__21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-2402709_960_7201.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ช้างพิม.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\สีม่วง.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ช้างพิม1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\775d8adf418.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\775d8adf4181.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cunning-puzzles-05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cunning-puzzles-051.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\msJjXlNv.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\msJjXlNv1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exes1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gt6my3xI.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gt6my3xI1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ddx6PuuC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ddx6PuuC1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Khao-khad-5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1398441208-1488025718-o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1398441208-1488025718-o1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\220px-Multiplication_Sign.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\220px-Multiplication_Sign.svg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7b1924f1-4dc7-481e-9d8b-ad867ded8515.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7b1924f1-4dc7-481e-9d8b-ad867ded85151.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gt6my3xI2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gt6my3xI3.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ball04_close.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ball04_close1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\multiply-303378_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\multiply-303378_960_7201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\everyone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\everyone1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lines-651274_960_720.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vintage_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ราคาบอลต่อ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ราคาบอลต่อ1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\220px-Basketball.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\220px-Basketball1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\116114977.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\education-booksOK.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\education-booksOK1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxresdefault1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ปากชมพูแบบธรรมชาติ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ปากชมพูแบบธรรมชาติ1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vintage-1113179_960_720.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\298522-572f718db568e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C_NRJxuW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C_NRJxuW1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5b074a5eda5ad16adc685157c9fcb7e3-dapdari.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new-mg5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new-mg51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ให้เวลากับครอบครัว.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ให้เวลากับครอบครัว1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black-background-1958574_960_720.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\119968306.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1199683061.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\u7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\u71.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tm-E.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tm-E1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\letter-f-2238226_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\letter-f-2238226_960_7201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tm-G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tm-G1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tm-H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tm-H1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\but9i.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\but9i1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JJJ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JJJ1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_117391481.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_1173914811.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\00000bbb998758.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\00000bbb9987581.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %284%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\y5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\y51.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tm-G2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tm-G3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\00000bbb9987582.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\00000bbb9987583.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %284%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %284%293.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\y52.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\y53.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4250.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\42501.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\905ed5a588de4075efb26cc059776000--alfabet-letters-spelling-bee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\905ed5a588de4075efb26cc059776000--alfabet-letters-spelling-bee1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\to.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\to1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t-39853_640.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t-39853_6401.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\30-U.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\30-U1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\30-v.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\30-v1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rrwwb2vlppy_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rrwwb2vlppy_31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_0011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\letter-1442872_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\letter-1442872_960_7201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\letters-632044_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\letters-632044_960_7201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5b074a5eda5ad16adc685157c9fcb7e3-dapdari1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxresdefault2.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
